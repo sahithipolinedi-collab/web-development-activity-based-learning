@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Personal Website</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #fff0f5;
+            margin: 0;
+        }
+
+        header {
+            background-color: #7b2cbf;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            border-bottom: 5px solid #ff69b4;
+        }
+
+        nav {
+            background-color: #ff69b4;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        section {
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+            border: 2px solid #dda0dd;
+            border-radius: 12px;
+        }
+
+        h2 {
+            color: #8e44ad;
+            border-bottom: 2px solid #ff69b4;
+            padding-bottom: 5px;
+        }
+
+        p, li {
+            color: #444;
+            line-height: 1.6;
+        }
+
+        .project {
+            background-color: #fce4ec;
+            padding: 12px;
+            margin: 10px 0;
+            border-left: 5px solid #ff69b4;
+        }
+
+        a {
+            color: #c2185b;
+        }
+
+        input, textarea {
+            padding: 8px;
+            margin: 5px;
+            border: 1px solid #ba68c8;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #7b2cbf;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                display: inline-block;
+                margin: 6px;
+            }
+
+            section {
+                margin: 10px;
+                padding: 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header id="home">
+    <h1>My Personal Website</h1>
+    <p style="color: #ffe082;">Welcome to My Portfolio!</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#projects">Projects</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello! My name is Your Name. I am a student who loves technology and learning new skills.</p>
+</section>
+
+<section id="education">
+    <h2>Educational Qualifications</h2>
+    <ul>
+        <li>B.Tech - Your College Name</li>
+        <li>Intermediate - Your College Name</li>
+        <li>SSC - Your School Name</li>
+    </ul>
+</section>
+
+<section id="skills">
+    <h2>Technical Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Python</li>
+        <li>Basic Computer Skills</li>
+    </ul>
+</section>
+
+<section id="hobbies">
+    <h2>My Hobbies</h2>
+    <p>Reading books, watching anime, listening to music and learning new things.</p>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+    <div class="project">
+        <h3>Personal Website</h3>
+        <p>A website to display my profile and skills.</p>
+    </div>
+    <div class="project">
+        <h3>Food Ordering Website</h3>
+        <p>A webpage displaying food items and prices.</p>
+    </div>
+</section>
+
+<section id="achievements">
+    <h2>Achievements</h2>
+    <p>Completed Intermediate education and started learning web development.</p>
+</section>
+
+<section id="resume">
+    <h2>My Resume</h2>
+    <a href="resume.pdf" download>Download My Resume</a>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: your@email.com</p>
+
+    <form>
+        <label>Name:</label><br>
+        <input type="text" placeholder="Enter your name" required><br>
+
+        <label>Email:</label><br>
+        <input type="email" placeholder="Enter your email" required><br>
+
+        <label>Message:</label><br>
+        <textarea rows="4" placeholder="Write a message"></textarea><br>
+
+        <input type="submit" value="Send Message">
+    </form>
+</section>
+
+<footer>
+    <p style="color: white;">Created by Your Name © 2026</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,233 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yummy Bites</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #fff5e6;
+        }
+
+        header {
+            background-color: #ff5722;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 12px;
+        }
+
+        nav a:hover {
+            color: #ff9800;
+        }
+
+        .offer {
+            background-color: #ffe082;
+            color: #b71c1c;
+            text-align: center;
+            padding: 15px;
+            margin: 15px;
+            border: 2px dashed #ff5722;
+        }
+
+        h2 {
+            color: #e64a19;
+            text-align: center;
+        }
+
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card {
+            background-color: white;
+            width: 230px;
+            margin: 15px;
+            padding: 15px;
+            text-align: center;
+                   border: 2px solid #ffccbc;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px #ddd;
+        }
+
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+                    border-radius: 8px;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .price {
+            color: #2e7d32;
+            font-weight: bold;
+        }
+
+        button {
+            background-color: #ff5722;
+            color: white;
+         border: none;
+                  padding: 10px 18px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #bf360c;
+        }
+
+        section {
+                  padding: 15px;
+        }
+
+        .reviews {
+       background-color: #fff;
+            margin: 15px;
+            padding: 15px;
+             border-left: 5px solid #ff9800;
+        }
+
+        footer {
+            background-color: #333;
+         color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                display: inline-block;
+                margin: 7px;
+            }
+
+            .card {
+                width: 85%;
+                }
+        }
+    </style>
+</head>
+
+<body>
+
+<header id="home">
+    <h1>🍕 Yummy Bites</h1>
+    <p>Delicious Food, Happy Mood!</p>
+    <p>⭐ 4.5 Rating | 📍 Vijayawada | 🕒 10 AM - 10 PM</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+  <a href="#menu">Menu</a>
+    <a href="#offers">Offers</a>
+    <a href="#reviews">Reviews</a>
+            <a href="#contact">Contact</a>
+</nav>
+
+<section id="offers">
+    <div class="offer">
+        <h2>🎉 Special Offer!</h2>
+        <p>Get 20% OFF on your favorite meals!</p>
+    </div>
+</section>
+
+<section id="menu">
+    <h2>Our Food Menu</h2>
+    <p style="text-align:center;">
+        🍔 Burgers | 🍕 Pizza | 🍝 Pasta | 🍰 Desserts
+    </p>
+
+    <div class="menu">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500" alt="Burger">
+       <h3>Cheese Burger</h3>
+             <p>Juicy burger with melted cheese.</p>
+            <p class="price">₹499</p>
+            <button>Order Now</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo- pizza" alt="Pizza" onerror="this.src='https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500'">
+         <h3>Veg Pizza</h3>
+            <p>Cheesy pizza with fresh toppings.</p>
+            <p class="price">₹599</p>
+            <button>Order Now</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=500" alt="Pasta">
+            <h3>Creamy Pasta</h3>
+            <p>Delicious pasta in creamy sauce.</p>
+               <p class="price">₹479</p>
+            <button>Order Now</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500" alt="Ice cream">
+            <h3>Ice Cream</h3>
+            <p>Sweet and creamy dessert.</p>
+            <p class="price">₹299</p>
+            <button>Order Now</button>
+        </div>
+
+    </div>
+</section>
+
+<section id="reviews">
+    <h2>Customer Reviews</h2>
+
+    <div class="reviews">
+        <p>⭐⭐⭐⭐⭐</p>
+        <p>"The food was fresh!" – Priya</p>
+    </div>
+
+    <div class="reviews">
+        <p>⭐⭐⭐⭐</p>
+        <p>"Great taste I love it!" – Teena</p>
+    </div>
+        
+       <div class="reviews">
+         <p>⭐⭐</p>
+       <p>"I hate the food I dont like it!" - Pravarshitha</p>
+       </div>
+
+       <div class="reviews">
+         <p>⭐</p>
+       <p>"The prices are too high we are poor!" - Jeevitha</p>
+       </div>
+
+</section>
+
+<section id="contact">
+    <h2>Restaurant Details</h2>
+    <p style="text-align:center;">
+        📍 Vijayawada, Andhra Pradesh<br><br>
+        📞 98765 43210<br><br>
+        🕒 Open daily: 10 AM – 8 PM
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 Yummy Bites | Made with ❤️</p>
+</footer>
+
+</body>
+</html>
